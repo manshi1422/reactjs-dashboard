@@ -1,11 +1,9 @@
 import { Stack, Switch } from "@mui/material";
-import { useState } from "react";
-import { ApiData, ApiDataProps } from "./interface";
-import Piechart from "./charts/Piechart";
-import Areachart from "./charts/AreaChart";
+import { ApiData } from "../interface";
+import Piechart from "./Piechart";
+import Areachart from "./AreaChart";
 
 const DashboardChart = (props:{apiData:ApiData,analyticsEnabled:boolean}) => {
-  console.log(props.apiData, " dashboard chart2");
 
   return (
     <>
@@ -95,13 +93,4 @@ const DashboardChart = (props:{apiData:ApiData,analyticsEnabled:boolean}) => {
 };
 
 export default DashboardChart;
-// {Array.isArray(value) ? (
-//   <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
-//     {value.map((item, index) => (
-//       <li key={index}>
-//         <strong>{item._id}:</strong> Amount: {item.totalAmount},
-//         TDS: {item.tdsAmount}, Count: {item.count}
-//       </li>
-//     ))}
-//   </ul>
-// ) : (
+

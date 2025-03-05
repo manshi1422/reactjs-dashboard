@@ -1,29 +1,9 @@
 import React, { useMemo } from "react";
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
-const data = [
-  {
-    name: "Deposits",
-    Total: 40,
-    Admin: 0,
-    Bonus: 0,
-  },
-  {
-    name: "Admin Deposits",
-    Total: 0,
-    Admin: 0,
-    Bonus: 0,
-  },
-  {
-    name: "Admin Bonuses",
-    Total: 0,
-    Admin: 0,
-    Bonus: 0,
-  },
-];
+
 
 const Areachart = ( data:any) => {
-  console.log(data?.apiData,"areaData");
   
    const areaData = useMemo(
       () =>

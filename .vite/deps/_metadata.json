@@ -2,7 +2,138 @@
   "hash": "b5402688",
   "configHash": "00b9322d",
   "lockfileHash": "db45bca8",
-  "browserHash": "fd109ed0",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "0667d11b",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "92d9c309",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "837b089f",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "7feada3f",
+      "needsInterop": true
+    },
+    "@mui/material/Box": {
+      "src": "../../node_modules/@mui/material/Box/index.js",
+      "file": "@mui_material_Box.js",
+      "fileHash": "ee2db672",
+      "needsInterop": false
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/styles/index.js",
+      "file": "@mui_material_styles.js",
+      "fileHash": "b26c53bd",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Description": {
+      "src": "../../node_modules/@mui/icons-material/esm/Description.js",
+      "file": "@mui_icons-material_Description.js",
+      "fileHash": "71309ae4",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Dashboard": {
+      "src": "../../node_modules/@mui/icons-material/esm/Dashboard.js",
+      "file": "@mui_icons-material_Dashboard.js",
+      "fileHash": "c7c586ab",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Analytics": {
+      "src": "../../node_modules/@mui/icons-material/esm/Analytics.js",
+      "file": "@mui_icons-material_Analytics.js",
+      "fileHash": "f5bead53",
+      "needsInterop": false
+    },
+    "@toolpad/core/AppProvider": {
+      "src": "../../node_modules/@toolpad/core/esm/AppProvider/index.js",
+      "file": "@toolpad_core_AppProvider.js",
+      "fileHash": "063cc1f9",
+      "needsInterop": false
+    },
+    "@toolpad/core/DashboardLayout": {
+      "src": "../../node_modules/@toolpad/core/esm/DashboardLayout/index.js",
+      "file": "@toolpad_core_DashboardLayout.js",
+      "fileHash": "b51cb0f7",
+      "needsInterop": false
+    },
+    "@toolpad/core/internal": {
+      "src": "../../node_modules/@toolpad/core/esm/internal/index.js",
+      "file": "@toolpad_core_internal.js",
+      "fileHash": "73c0c343",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "ade809db",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "36fe3498",
+      "needsInterop": false
+    },
+    "recharts": {
+      "src": "../../node_modules/recharts/es6/index.js",
+      "file": "recharts.js",
+      "fileHash": "3cf71c72",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HK6B54ZR": {
+      "file": "chunk-HK6B54ZR.js"
+    },
+    "chunk-NNDZJ5WH": {
+      "file": "chunk-NNDZJ5WH.js"
+    },
+    "chunk-YNKA2OVT": {
+      "file": "chunk-YNKA2OVT.js"
+    },
+    "chunk-TKHB4QMX": {
+      "file": "chunk-TKHB4QMX.js"
+    },
+    "chunk-EDAMFVYT": {
+      "file": "chunk-EDAMFVYT.js"
+    },
+    "chunk-4GU3P23L": {
+      "file": "chunk-4GU3P23L.js"
+    },
+    "chunk-C6WWHQR7": {
+      "file": "chunk-C6WWHQR7.js"
+    },
+    "chunk-F6YEH2WT": {
+      "file": "chunk-F6YEH2WT.js"
+    },
+    "chunk-QACQMID5": {
+      "file": "chunk-QACQMID5.js"
+    },
+    "chunk-LQLVYY33": {
+      "file": "chunk-LQLVYY33.js"
+    },
+    "chunk-Q2457F24": {
+      "file": "chunk-Q2457F24.js"
+    },
+    "chunk-AXCJ6OYR": {
+      "file": "chunk-AXCJ6OYR.js"
+    },
+    "chunk-CVWYDCK2": {
+      "file": "chunk-CVWYDCK2.js"
+    },
+    "chunk-YLDSBLSF": {
+      "file": "chunk-YLDSBLSF.js"
+    },
+    "chunk-DC5AMYBS": {
+      "file": "chunk-DC5AMYBS.js"
+    }
+  }
 }

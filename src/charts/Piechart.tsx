@@ -43,13 +43,7 @@ const Piechart = ( data:any) => {
     [data?.apiData]
   );
   return (
-    // <div
-    //   style={{
-    //     display: "flex",
-    //     justifyContent: "space-around",
-    //     marginTop: "20px",
-    //   }}
-    // >
+   
     <>
     <h2>User Analytics (Pie Chart)</h2>
       <Grid2 container spacing={2} width={"100%"}>
@@ -106,7 +100,6 @@ const Piechart = ( data:any) => {
         </Grid2>
       </Grid2>
     </>
-    // </div>
   );
 };
 export default Piechart;
