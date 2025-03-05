@@ -1,4 +1,4 @@
-import { Stack, Switch } from "@mui/material";
+import { Stack } from "@mui/material";
 import { ApiData } from "../interface";
 import Piechart from "./Piechart";
 import Areachart from "./AreaChart";

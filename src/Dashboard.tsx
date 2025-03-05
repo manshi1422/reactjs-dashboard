@@ -99,11 +99,7 @@ function DemoPageContent({
   );
 }
 
-interface DemoProps {
-  window?: () => Window;
-}
-
-export default function DashboardLayoutNavigationNested(props: DemoProps) {
+export default function DashboardLayoutNavigationNested() {
   const router = useDemoRouter("/dashboard");
   const [apiData, setApiData] = useState<any>(null);
   const [error, setError] = useState<any>(false);

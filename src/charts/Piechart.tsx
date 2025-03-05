@@ -63,8 +63,9 @@ const Piechart = ( data:any) => {
               >
                 {newUserData.map((entry, index) => (
                   <Cell
-                    key={`cell-${index}`}
+                    key={`cell-${entry}-${index}`}
                     fill={COLORS[index % COLORS.length]}
+
                   />
                 ))}
               </Pie>
@@ -88,7 +89,7 @@ const Piechart = ( data:any) => {
               >
                 {activeUserData.map((entry, index) => (
                   <Cell
-                    key={`cell-${index}`}
+                  key={`cell-${entry}-${index}`}
                     fill={COLORS[index % COLORS.length]}
                   />
                 ))}
