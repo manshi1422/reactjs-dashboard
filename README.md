@@ -1,7 +1,7 @@
-# Deposits & Bonuses Dashboard
+# Dashboard using ReactJS
 
 ## Overview
-This project is a React-based dashboard that visualizes deposit and bonus data using Recharts. It fetches data from an API and provides interactive charts, including an area chart and pie charts. The dashboard also includes a toggle for analytics mode and a dark mode switch.
+This project is a React-based dashboard that shows data and visualizes deposit and bonus data using Recharts. It fetches data from an API and provides interactive charts, including an area chart and pie charts. The dashboard also includes a toggle for analytics mode and a dark mode switch.
 
 ## Features
 - **Data Fetching:** Fetches real-time dashboard data from an API using Axios.
@@ -30,3 +30,5 @@ Ensure you have the following installed:
    ```sh
    git clone <repository_url>
    cd <project_folder>
+   npm install
+   npm run dev
