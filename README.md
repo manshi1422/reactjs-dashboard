@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+# Deposits & Bonuses Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a React-based dashboard that visualizes deposit and bonus data using Recharts. It fetches data from an API and provides interactive charts, including an area chart and pie charts. The dashboard also includes a toggle for analytics mode and a dark mode switch.
 
-Currently, two official plugins are available:
+## Features
+- **Data Fetching:** Fetches real-time dashboard data from an API using Axios.
+- **Charts & Visualization:** Uses Recharts to display deposit and bonus comparisons and user distributions.
+- **Dark/Light Mode:** Toggle between themes for better accessibility.
+- **Analytics Mode:** Enable/disable analytics display dynamically.
+- **Responsive Design:** Fully compatible across desktop, tablet, and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React.js
+- Axios
+- Recharts
+- Material-UI (for toggle switches)
+- CSS (for styling and theme management)
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (LTS recommended)
+- **npm** or **yarn** (package manager)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Steps to Run Locally
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **Clone the Repository**
+   ```sh
+   git clone <repository_url>
+   cd <project_folder>
